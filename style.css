@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(216, 225, 233);
+}
+.wrapper{
+    display: flex;
+    flex-direction: row;
+}
+.links, .inf{
+    /* padding: 15px; */
+    margin-left: auto;
+    margin-right: auto;
+    border: rgb(115, 146, 183) solid 4px;
+    width: 350px;
+    height: 200px;
+}
+
+.links, .inf{
+    padding: 40px;
+}
+
+.header{
+    text-align: center;
+}
+li{
+    font-size: 26px;
+}
+a{
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+.links ul{
+    list-style: none;
+}
+.lab{
+    border: rgb(115, 146, 183) solid 4px;
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 2%;
+}
+.before{
+    display: flex;
+    flex-direction: row;
+}
+button{
+    background-color: rgb(197, 213, 234);
+    color: rgb(55, 77, 108);
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    padding: 5px;
+    margin-left: 70%;
+}
+.after img{
+    height: 80%;
+    width: 80%;
+    object-fit: fill;
+}
+.hidden{
+    display: none !important;
+
+}
